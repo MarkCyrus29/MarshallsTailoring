@@ -1,0 +1,93 @@
+/* Basic container */
+.error-alert-container {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  width: 15rem; /* 60 */
+  z-index: 50;
+}
+
+@media (min-width: 640px) {
+  .error-alert-container {
+    width: 18rem; /* 72 */
+  }
+}
+
+/* Alert box */
+.error-alert {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  height: 3rem; /* 12 */
+  border-radius: 0.5rem;
+  background-color: #232531;
+  padding: 0 0.625rem;
+}
+
+@media (min-width: 640px) {
+  .error-alert {
+    height: 3.5rem; /* 14 */
+  }
+}
+
+/* Content section */
+.error-content {
+  display: flex;
+  gap: 8px;
+}
+
+.icon {
+  background-color: rgba(255, 255, 255, 0.05);
+  backdrop-filter: blur(10px);
+  padding: 0.25rem;
+  border-radius: 0.5rem;
+}
+
+.icon-svg {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: #d65563;
+}
+
+.text-content .message {
+  color: white;
+  font-size: 0.625rem; /* 10px */
+}
+
+@media (min-width: 640px) {
+  .text-content .message {
+    font-size: 0.75rem; /* 12px */
+  }
+}
+
+.text-content .description {
+  color: rgba(255, 255, 255, 0.5);
+  font-size: 0.5rem; /* 8px */
+}
+
+@media (min-width: 640px) {
+  .text-content .description {
+    font-size: 0.625rem; /* 10px */
+  }
+}
+
+/* Close button */
+.close-btn {
+  background: none;
+  border: none;
+  padding: 0.25rem;
+  border-radius: 0.375rem;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.close-btn:hover {
+  background-color: rgba(255, 255, 255, 0.1);
+}
+
+.icon-svg.close-icon {
+  width: 1.5rem;
+  height: 1.5rem;
+  color: rgba(112, 112, 112, 0.6);
+}

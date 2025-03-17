@@ -1,0 +1,66 @@
+.suits-section1 {
+  margin: 0px auto 50px auto;
+  width: 70%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: auto;
+}
+
+.gallery-container {
+  display: grid;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 20px;
+  padding: 20px;
+  background-color: #003170;
+  border-radius: 15px;
+  box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.gallery {
+  justify-items: center;
+  text-align: center;
+  background-color: #171717; /* Card background */
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+  padding: 15px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+.gallery:hover {
+  transform: scale(1.03);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+}
+.gallery img {
+  height: 250px;
+  border-radius: 10px;
+  margin-bottom: 15px;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.gallery img:hover {
+  transform: scale(1.05);
+}
+
+.gallery p {
+  margin: 5px 0;
+  color: #ccd6f6; /* Light text color */
+}
+
+.name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: #64ffda; /* Vibrant color for the name */
+}
+
+.price {
+  font-size: 1rem;
+  color: #ffffff;
+}
+
+.price::before {
+  content: "Price: ";
+  font-weight: normal;
+  color: #64ffda;
+}

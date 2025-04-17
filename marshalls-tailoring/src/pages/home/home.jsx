@@ -33,7 +33,7 @@ export const Home = () => {
       <section className="home-section2">
         <div className="section2">
           <div style={{ outline: "solid 1px #171717", width: "100%" }}>
-            <h1 className="block">OUR CLIENTS</h1>
+            <h1 className="block font-bold">OUR CLIENTS</h1>
           </div>
 
           <div className="clients lg:grid-cols-2">
@@ -62,7 +62,7 @@ export const Home = () => {
       </section>
       <section className="home-section3">
         <div className="section3 w-3/4">
-          <h1 className="block">WHY CHOOSE US?</h1>
+          <h1 className="block font-bold">WHY CHOOSE US?</h1>
           <p className="block ">
             At our tailoring shop, we pride ourselves on providing a timely,
             personalized, and high-quality experience for every customer. We

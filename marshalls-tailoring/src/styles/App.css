@@ -12,10 +12,6 @@ body {
   font-style: normal;
 }
 
-/* For WebKit browsers (Chrome, Safari) */
-::-webkit-scrollbar {
-  display: none;
-}
 
 @keyframes appear {
   from {

@@ -1,5 +1,6 @@
 import { useState } from "react";
 import "./home.css";
+import { useEffect } from "react";
 
 export const ImageSlider = ({ slides }) => {
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -37,7 +38,7 @@ export const ImageSlider = ({ slides }) => {
           ❱
         </div>
         <div
-          className="slide-styles"
+          className="slide-styles "
           style={{
             backgroundImage: `url(${slides[currentIndex].url})`,
           }}

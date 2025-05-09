@@ -3,7 +3,7 @@ import { ImageSlider } from "./ImageSlider";
 import "./home.css";
 import React from "react";
 import "../../styles/App.css";
-import Footer from "../footer";
+import Footer from "../Footer";
 
 export const Home = () => {
   const slides = [

@@ -2,7 +2,7 @@ import "../../styles/App.css";
 import "./suits.css";
 import React from "react";
 import { Gallery } from "./Gallery";
-import Footer from "../footer";
+import Footer from "../Footer";
 
 export const Suits = () => {
   const gallery = [

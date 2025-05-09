@@ -1,6 +1,6 @@
 import SendEmail from "./SendEmail";
 import "../../styles/App.css";
-import Footer from "../footer";
+import Footer from "../Footer";
 
 export const Contact = () => {
   return (
